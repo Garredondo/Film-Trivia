@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Film Trivia</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- this next code.jquery has to go before  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- above was pulled up from below -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap javascript -->
+    <!-- this was the original spot of the code.jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+    <!-- my javascript -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <!-- my CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- entire page -->
+    <div class="wrapper">
+        <!-- game title -->
+        <div class="jumbotron">
+            Film Trivia
+        </div>
+        <!-- maincontent -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="welcome-instructions">Welcome to Film Trivia! When you press the start button you will be
+                        asked five questions and given 2 minutes to respond. Good Luck!</p>
+                </div>
+            </div>
+            <!-- the quiz -->
+            <form class="the-quiz">
+                <!-- question 1 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Amour is a 2012 drama whose protagonists are an elderly couple living in this city…
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="radio" name="q1" id="Munich" value="a"> Munich<br>
+                        <input type="radio" name="q1" id="Nice" value="b"> Nice<br>
+                        <input type="radio" name="q1" id="Marseille" value="c"> Marseille<br>
+                        <input type="radio" name="q1" id="Paris" value="d" > Paris<br>
+                        <input type="radio" name="q1" id="Aix-en-Provence" value="e"> Aix-en-Provence
+                    </div>
+                </div><br>
+                <!-- question 2 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>The Favourite centers on the life of this 17th century British monarch…
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="radio" name="q2" id="Queen-M" value="f"> Queen Mary<br>
+                        <input type="radio" name="q2" id="King-H" value="g"> King Henry VIII<br>
+                        <input type="radio" name="q2" id="Queen-E" value="h"> Queen Elizabeth I<br>
+                        <input type="radio" name="q2" id="King-J" value="i"> King James<br>
+                        <input type="radio" name="q2" id="Queen-A" value="j"> Queen Anne
+                    </div>
+                </div><br>
+                <!-- question 3 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>Natalie Portman stars in this 2018 sci-fi film based on a novel by Jeff VanderMeer’s…
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <input type="radio" name="q3" id="Annihilation" value="k"> Annihilation<br>
+                        <input type="radio" name="q3" id="Star-Wars" value="l"> Star Wars<br>
+                        <input type="radio" name="q3" id="Arrival" value="m"> Arrival<br>
+                        <input type="radio" name="q3" id="Dune" value="n"> Dune<br>
+                        <input type="radio" name="q3" id="Ex-Machina" value="o"> Ex-Machina
+                    </div>
+                </div><br>
+                <!-- question 4 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>In the 2018 version of Suspiria this actress portrays a witch in Cold War era Berlin…
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="radio" name="q4" id="Franka-P" value="p"> Franka Potente<br>
+                        <input type="radio" name="q4" id="Tilda-S" value="q"> Tilda Swinton<br>
+                        <input type="radio" name="q4" id="Heidi-K" value="r"> Heidi Klum<br>
+                        <input type="radio" name="q4" id="Diane-K" value="s"> Diane Kruger<br>
+                        <input type="radio" name="q4" id="Marlene-D" value="t"> Marlene Dietrich
+                    </div>
+                </div><br>
+                <!-- question 5 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>What is the profession of the leading man in the 1966 film Blow-Up?
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="radio" name="q5" id="Arsonist" value="u"> Arsonist<br>
+                        <input type="radio" name="q5" id="Military-G" value="v"> Military General<br>
+                        <input type="radio" name="q5" id="Drone-O" value="w"> Drone Operator<br>
+                        <input type="radio" name="q5" id="Photographer" value="x"> Photographer<br>
+                        <input type="radio" name="q5" id="Clown" value="y"> Clown 
+                    </div>
+                </div>
+            </form>
+            <!-- result -->
+            <div class="row" class="game-results">
+                <div class="row">
+                    <p id="message-to-user"></p>
+                </div>
+                <div class="row">
+                    <p id="correct-ans"></p>
+                </div>
+                <div class="row">
+                    <p id="incorrect-ans"></p>
+                </div>
+                <div class="row">
+                    <p id="un-ans"></p>
+                </div>
+            </div>
+            <!-- start/submission button -->
+            <div class="row">
+                <div class="col-sm-5">
+                    <!-- left blank -->
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-secondary">Begin</button>
+                    <button type="button" class="btn btn-danger">Submit</button>
+                </div>
+                <div class="col-sm-5">
+                    <div id="bottom-button">
+                        <!-- left blank -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
